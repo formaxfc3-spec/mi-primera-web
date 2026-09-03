@@ -1,0 +1,45 @@
+FORMAX FC - INSTRUCCIONES
+==========================
+
+PASO 0 (una sola vez, si no lo tienes):
+Instala XAMPP desde https://www.apachefriends.org
+Durante la instalación deja todo por defecto (que quede en C:\xampp).
+
+PASO 1:
+Abre el Panel de Control de XAMPP y da clic en "Start" en Apache y en MySQL.
+Deben quedar en verde.
+
+PASO 2:
+Copia TODA esta carpeta (formaxfc) donde la tengas descomprimida.
+
+PASO 3:
+Haz doble clic en "instalar.bat".
+Esto va a:
+  - Copiar todos los archivos a C:\xampp\htdocs\formaxfc
+  - Crear la base de datos "formax_fc" con sus tablas
+  - Abrir tu página automáticamente en el navegador
+
+PASO 4:
+Prueba el formulario de Contacto. Si todo salió bien, verás un
+mensaje verde de "enviado correctamente".
+
+Para ver los mensajes guardados:
+Entra a http://localhost/phpmyadmin, abre la base "formax_fc"
+y la tabla "contactos".
+
+IMPORTANTE - IMÁGENES:
+Este paquete no incluye tus fotos originales (logo, banners, galería).
+Copia tus imágenes dentro de la carpeta "img" de este proyecto,
+usando estos nombres (o edita el index.html si prefieres otros nombres):
+  img/Logo f.c.jpeg
+  img/slider/bg2.jpg, img/slider/bg3.jpg
+  img/imag4.jpg a img/imag9.jpg
+  img/folleto.png
+  img/app.png
+  img/tarjeta.jpeg
+
+Si algo no funciona:
+  - Revisa que Apache y MySQL estén en verde en el Panel de XAMPP.
+  - Vuelve a ejecutar instalar.bat.
+  - Asegúrate de entrar por http://localhost/formaxfc/index.html
+    y NO abriendo el archivo con doble clic.
